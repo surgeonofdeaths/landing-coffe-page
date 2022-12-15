@@ -2,9 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Coffee page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header class="header">
+    <nav class="nav">
+        <a href="index.html" class="logo">COFFEE HOUSE</a>
+        <div class="nav-items">
+            <ul class="nav-list">
+                <li class="list-item"><a class="nav-item" href="#">HOME</a></li>
+                <li class="list-item"><a class="nav-item" href="#story">STORY</a></li>
+                <li class="list-item"><a class="nav-item" href="#blog">BLOG</a></li>
+                <li class="list-item"><a class="nav-item" href="#subscribe">SUBSCRIBE</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
+<main class="main">
+    <div class="container-1">
+        <img class="image-1" src="img/hans-vivek-vSuQJKZkt4U-unsplash.jpg" alt="take your time">
+        <div class="center">
+            <p class="container-text">TAKE YOUR TIME</p>
+        </div>
+        <div class="center below">
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="container-2">
+        <div id="story" class="title">STORY</div>
+        <div class="block-2">
+            <img src="img/brooke-cagle-X4RJG4aNi8o-unsplash.jpg" alt="coffee" class="img-2">
+            <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu quis
+                cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit eleifend
+                euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Praesent mattis ultrices est, congue ullamcorper erat bibendum pulvinar. In accumsan dapibus accumsan.
+                Maecenas semper est ut nunc feugiat, vel ultrices ligula commodo. Donec eget pulvinar nunc, eget
+                pharetra risus.
+            </div>
+        </div>
+    </div>
+    <div class="container-3">
+        <div id="blog" class="title">BLOG</div>
+        <div class="cards">
+            <div class="card">
+                <div class="card-title">Daily Coffee News</div>
+                <img alt="coffee" class="card-image" src="img/annie-spratt-CSQQ6_T0sks-unsplash.jpg">
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu
+                    quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit
+                    eleifend euismod.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Dutch Coffee Chains</div>
+                <img alt="coffee" class="card-image" src="img/karl-fredrickson-TYIzeCiZ_60-unsplash.jpg">
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu
+                    quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit
+                    eleifend euismod.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title">Start Up In Minneapolis</div>
+                <img alt="coffee" class="card-image" src="img/crew-9rTEwV_G0Do-unsplash.jpg">
+                <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius eget arcu
+                    quis cursus. Nunc id tortor imperdiet, vestibulum orci sed, gravida orci. Cras a enim ac elit
+                    eleifend euismod.
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <div class="title white" id="subscribe">SUBSCRIBE</div>
+        <form class="form">
+            <label>
+                <input class="input-email" type="email" placeholder="enter your email">
+            </label>
+            <div>
+                <button type="submit" class="submit-btn">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+    <div class="copyright">
+        © COPYRIGHT 2021
+    </div>
+</footer>
 </body>
 </html>
